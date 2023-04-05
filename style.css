@@ -122,6 +122,13 @@ html {
     top: -20px;
 }
 
+#cover2,
+#back-cover2{
+    position: relative;
+    left: -125px;
+    top: -60px;
+}
+
 .back-cover img{
     position: relative;
     left: -25px;
