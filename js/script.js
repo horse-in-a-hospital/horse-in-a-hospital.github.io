@@ -11,6 +11,7 @@ const randomDice = () => {
     else {
         randomDice();
     }
+
 }
 
 const rollDice = random => {
