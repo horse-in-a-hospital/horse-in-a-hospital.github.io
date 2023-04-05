@@ -4,17 +4,28 @@
 }
 
 body{
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     perspective: 1000px;
 }
 
+.padding{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 3050px;
+}
+
 .book1{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: 350px;
 }
 
 .book2{
@@ -22,7 +33,7 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 500px;
+    top: 950px;
 }
 
 .book3{
@@ -30,8 +41,27 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 1000px;
+    top: 1550px;
 }
+
+.book4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2150px;
+}
+
+
+.book5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2750px;
+}
+
+
 
 .book{
     display: flex;
@@ -43,12 +73,12 @@ body{
 
 .book:hover .cover{
     transform: rotateX(30deg) rotateY(-180deg);
-    z-index: 0;
+    z-index: -1;
 }
 
 .book:hover .cover-back{
     transform: rotateX(30deg) rotateY(-180deg);
-    z-index: 1;
+    z-index: 0;
 }
 
 .book:hover .page{
@@ -57,16 +87,17 @@ body{
 }
 
 .cover{
-    z-index: 1;
+    z-index: 2;
     transition: all 3s;    
 }
 .cover-back{
-    z-index: 0; 
+    z-index: 1; 
     transition: all 3s;  
 }
 .back-cover{
     z-index: -4;
 }
+
 
 .cover, 
 .cover-back,
