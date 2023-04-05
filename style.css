@@ -15,7 +15,6 @@ html {
     -webkit-text-size-adjust: none; 
 }
 
-
 .padding{
     height: 100px;
     width: 100px;
@@ -96,7 +95,7 @@ html {
     transition: all 3s;    
 }
 .cover-back{
-    z-index: 1; 
+    z-index: 0; 
     transition: all 3s;  
 }
 .back-cover{
@@ -115,6 +114,18 @@ html {
     position: absolute;
     transform: rotateX(30deg);
     transform-origin: center left;
+}
+
+.cover img{
+    position: relative;
+    left: -25px;
+    top: -20px;
+}
+
+.back-cover img{
+    position: relative;
+    left: -25px;
+    top: -20px;
 }
 
 .page,
