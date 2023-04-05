@@ -11,6 +11,8 @@ body{
     perspective: 1000px;
 }
 
+html { -webkit-text-size-adjust: none; }
+
 .padding{
     height: 100px;
     width: 100px;
@@ -83,7 +85,7 @@ body{
 
 .book:hover .page{
     transform: rotateX(30deg) rotateY(-180deg);
-    z-index: 2;
+    z-index: 1;
 }
 
 .cover{
