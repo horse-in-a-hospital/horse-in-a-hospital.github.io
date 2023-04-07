@@ -31,6 +31,18 @@ html {
     justify-content: center;
     position: relative;
     top: 350px;
+    left: -500px;
+    transform: scale(1);
+}
+
+.book15{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 350px;
+    left: 0px;
+    transform: scale(1);
 }
 
 .book2{
@@ -38,7 +50,9 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 1050px;
+    top: 950px;
+    left: -250px;
+    transform: scale(0.9);
 }
 
 .book3{
@@ -46,7 +60,9 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 1750px;
+    top: 1675px;
+    left: -280px;
+    transform: scale(1.4);
 }
 
 .book4{
@@ -55,6 +71,7 @@ html {
     justify-content: center;
     position: relative;
     top: 2450px;
+    left: -500px;
 }
 
 
@@ -63,7 +80,8 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 3150px;
+    top: 2450px;
+    transform: scale(0.85);
 }
 
 .padding{
@@ -73,7 +91,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 3550px;
+    top: 3150px;
 }
 
 
@@ -85,7 +103,7 @@ html {
     justify-content: center;
     background: #ffffff;
     position: relative;
-    transform: scale(1.5);
+    transform: scale(1.2);
     left: 75px;
 }
 
@@ -139,8 +157,8 @@ html {
 #cover2,
 #back-cover2{
     position: relative;
-    left: -125px;
-    top: -60px;
+    left: -20px;
+    top: -25px;
 }
 
 #cover3{
