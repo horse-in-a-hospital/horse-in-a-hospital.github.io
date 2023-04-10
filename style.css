@@ -32,7 +32,7 @@ html {
     position: relative;
     top: 350px;
     left: -500px;
-    transform: scale(1);
+    transform: scale(1.2);
 }
 
 .book15{
@@ -42,7 +42,7 @@ html {
     position: relative;
     top: 350px;
     left: 0px;
-    transform: scale(1);
+    transform: scale(1.2);
 }
 
 .book2{
@@ -50,9 +50,9 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 950px;
+    top: 1000px;
     left: -250px;
-    transform: scale(0.9);
+    transform: scale(1);
 }
 
 .book3{
@@ -60,9 +60,9 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 1675px;
+    top: 1800px;
     left: -280px;
-    transform: scale(1.4);
+    transform: scale(1.6);
 }
 
 .book4{
@@ -70,8 +70,9 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 2450px;
+    top: 2650px;
     left: -500px;
+    transform: scale(1.1);
 }
 
 
@@ -80,8 +81,8 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 2450px;
-    transform: scale(0.85);
+    top: 2650px;
+    transform: scale(0.9);
 }
 
 .padding{
