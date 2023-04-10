@@ -62,9 +62,9 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 1800px;
+    top: 1750px;
     left: -280px;
-    transform: scale(1.6);
+    transform: scale(1.4);
 }
 
 .book4{
@@ -72,9 +72,9 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 2650px;
-    left: -500px;
-    transform: scale(1.1);
+    top: 2550px;
+    left: -550px;
+    transform: scale(1.4);
 }
 
 
@@ -83,7 +83,7 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 2650px;
+    top: 2550px;
     transform: scale(0.9);
 }
 
