@@ -9,6 +9,8 @@ body{
     align-items: center;
     justify-content: center;
     perspective: 1000px;
+    position: relative;
+    left: -150px;
 }
 
 html { 
@@ -20,8 +22,8 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: -400px;
-    left: 100px;
+    top: -450px;
+    left: 400px;
     transform: scale(1.2);
 }
 
@@ -31,7 +33,7 @@ html {
     justify-content: center;
     position: relative;
     top: 350px;
-    left: -500px;
+    left: -225px;
     transform: scale(1.2);
 }
 
@@ -41,7 +43,7 @@ html {
     justify-content: center;
     position: relative;
     top: 350px;
-    left: 0px;
+    left: 125px;
     transform: scale(1.2);
 }
 
